@@ -29,9 +29,17 @@ const user = {
 // }
 // chai() 
 
-const chai = () =>{
-  let username = "bablu"
-  console.log(this);
+// const chai = () =>{
+//   let username = "bablu"
+//   console.log(this);
   
-}
-chai()
+// }
+// chai()
+
+
+// pure arrow function
+
+                              
+const addTwo =(num1,num2)  => ({username: "bablu kumar"})
+
+console.log(addTwo(4,5));
