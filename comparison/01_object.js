@@ -64,7 +64,7 @@ const course = {
 }
 console.log(course.price);
 
-const {courseInstructor: karanKumar} = course
+const {courseInstructor: karanKumar} = course// destructuring
 //console.log(courseInstructor);
 console.log(karanKumar);
 

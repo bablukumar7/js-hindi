@@ -32,4 +32,12 @@ for (const [key , value] of map){
   
 }
 
-
+const myobject = {
+  js : 'javascript',
+  py : 'python',
+  rb : 'ruby'
+}
+for (const key in myobject){
+  console.log(`${key} shortcut is for ${myobject[key]}`);
+  
+}
