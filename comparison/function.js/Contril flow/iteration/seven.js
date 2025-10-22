@@ -80,5 +80,5 @@ mycoding.forEach( (item) =>{
                       .filter((num) => num >= 40)
   console.log(newNums);
   
-  f
+  
   
